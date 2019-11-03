@@ -10,10 +10,11 @@ body {
 .todolist-header {
 	height: 40px;
 	border-bottom: 2px solid black;
-	margin-bottom: 30px;
+	
 }
 .container {
 	min-height: 550px;
+	padding-top: 30px;
 
 }
 h1 {
@@ -65,7 +66,7 @@ label {
 	display: none;
 	border: 2px solid black;
 	position: absolute;
-	top: 50%;
+	top: 185px;
     left: 50%;
     margin: -125px 0 0 -125px;
     padding-top: 10px;
@@ -151,13 +152,14 @@ input::-webkit-input-placeholder {
 }
 .done-task{
 	background: rgba(246,246,246);
+	
 }
 
 .tasks {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	margin: 0 120px;
+	margin: 0 204px;
 }
 .task {
 	width: 250px;
